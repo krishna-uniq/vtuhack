@@ -1,0 +1,111 @@
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6052fa), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #6052fa, #65a9d7);
+   background: -moz-linear-gradient(top, #6052fa, #65a9d7);
+   background: -ms-linear-gradient(top, #6052fa, #65a9d7);
+   background: -o-linear-gradient(top, #6052fa, #65a9d7);
+   padding: 11px 22px;
+   -webkit-border-radius: 21px;
+   -moz-border-radius: 21px;
+   border-radius: 21px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+ .button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+ .button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+   .container
+   {
+      margin-left: 200px;
+   }
+   .content
+   {
+      text-transform: capitalize;
+      margin-top: 10px;
+      margin-left: 50px;
+   }
+   .right_smll
+   {
+      float: right;
+   }
+
+   .content_mod
+   {
+      width: 700px;
+      border:1px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      font-family: Verdana, Geneva, sans-serif;
+   }
+   body
+   {
+      font:14px/1.5 Arial, Helvetica, sans-serif;
+      background-color:#33FFFF;
+      background-image: url('images/bg.png');
+      margin:0;
+   }  
+   ul
+   {
+        padding: 0;
+        list-style: none;
+    }
+    ul li
+    {
+      margin-top: 4px;
+        width: 150px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        line-height: 21px;
+    }
+    ul li a
+    {
+        display: block;
+        padding: 5px 10px;
+        color: #333;
+        background:#3333FF;
+        text-decoration: none;
+    }
+    ul li a:hover
+    {
+        color: #fff;
+        background: #33FF00;
+    }
+    ul li ul
+    {
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    input::-moz-placeholder
+   {
+      text-align:center;
+      font-weight:bolder;
+      font-family:Verdana, Geneva, sans-serif;
+      color:#666;
+
+   }
+   input::-webkit-input-placeholder
+   {
+      text-align:center;
+      font-weight:bolder;
+      color:#666;
+      font-family:Verdana, Geneva, sans-serif;
+   }
