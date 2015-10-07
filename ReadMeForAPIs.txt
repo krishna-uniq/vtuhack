@@ -1,0 +1,3 @@
+Download APIs for Google and Facebook from there developer console.......
+For Facebook:- https://developers.facebook.com/?ref=pf
+For Google:- https://console.developers.google.com
